@@ -1,4 +1,33 @@
-[
-  {"id": 1, "title": "Title 1"},
-  {"id": 2, "title": "Title 2"}
-]
+{ 
+  "courts" :
+  [
+    {
+      "id": 1, 
+      "title": "Vanula",
+      "courtType": "outdoor",
+      "amountOfCourts": 1,
+      "location": {
+          "latlong": "123123",
+          "street": "Vanupolku 1",
+          "postcode": "70780",
+          "city": "Kuopio", 
+          "country": "Finland"
+      },
+      "web" : "www.padel.com"
+    },
+    {
+      "id": 2, 
+      "title": "Stadi",
+      "courtType": "outdoor",
+      "amountOfCourts": 1,
+      "location": {
+          "latlong": "123123",
+          "street": "Vanupolku 1",
+          "postcode": "70780",
+          "city": "Stadi", 
+          "country": "Finland"
+      },
+      "web" : "www.padel.com"
+    }
+  ]
+}
